@@ -1,5 +1,5 @@
 
-#Creates a class, animals that gives general information about the animal in quiestion
+#Creates a class, animals that gives general information about the animal in question
 
 class Animals:
     animal_name = 'No Name Provided'
