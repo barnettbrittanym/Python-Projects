@@ -18,7 +18,7 @@ class Trees(Plants):
     native_regions = "North Temperate zone and at high altitude in the tropics"
     common_uses = "Building and constructing furniture"
     
-    def facts(self):
+    def information(self):
         msg= 'Oak is any of about 450 species of ornamental and timber trees and shrubs constituting the genus Quercus in the beech family. It is a common source of ink and cork production in some countries.'
         return msg
     
@@ -29,7 +29,7 @@ class Herbs(Plants):
     native_regions ='Tropical regions from central Africa to Southeast Asia'
     common_uses = 'used in cuisine worldwide'
 
-    def dishes(self):
+    def information(self):
         msg= '\nSauces\nSoups\nPesto\nPizza'
         return msg
 
@@ -37,8 +37,7 @@ if __name__ == "__main__":
     a=Trees()
     b=Herbs()
     print(a.information())
-    print(a.facts())
     print(b.information())
-    print(b.dishes())
+
     
     
